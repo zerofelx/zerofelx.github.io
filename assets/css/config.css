@@ -1,0 +1,55 @@
+#Header {
+    display: flex;
+    padding: 0 20px;
+}
+#Title {
+    width: 50%;
+}
+#Links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#Content {
+    background: rgb(245, 245, 245);
+    padding-bottom: 20px;
+}
+#Hero {
+    min-height: 100vh;
+    padding: 10px 0;
+}
+#Avatar {
+    text-align: center;
+}
+#Avatar img {
+    border-radius: 50%;
+}
+#Name {
+    text-align: center;
+}
+#Description {
+    text-align: center;
+}
+#Portfolio {
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+}
+.ProyectBox {
+    margin: 2%;
+    width: 50%;
+    border: 0.5px solid grey;
+}
+.ProyectTitle {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #Portfolio {
+        flex-wrap: wrap;
+    }
+    .ProyectBox {
+        width: 100%;
+        margin: 0;
+    }
+}

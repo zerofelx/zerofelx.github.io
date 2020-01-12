@@ -1,0 +1,16 @@
+a {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
+    color: crimson;
+    padding: 0 8px;
+    transition: padding 1s, background-color 1s;
+    min-width: 100px;
+    text-align: center;
+}
+a:hover {
+    color: rgb(189, 50, 78);
+    background-color: rgb(54, 44, 44);
+    padding: 22.5px 8px;
+    transition: padding .5s;
+}
