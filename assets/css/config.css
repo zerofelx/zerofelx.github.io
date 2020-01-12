@@ -31,23 +31,23 @@
     text-align: center;
 }
 #Portfolio {
-    width: 84%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+}
+#PortfolioTitle {
+    width: 100%;
+    text-align: center;
 }
 .ProyectBox {
-    margin: 2%;
     width: 50%;
-    border: 0.5px solid grey;
 }
 .ProyectTitle {
     text-align: center;
 }
 
 @media (max-width: 600px) {
-    #Portfolio {
-        flex-wrap: wrap;
-    }
     .ProyectBox {
         width: 100%;
         margin: 0;
