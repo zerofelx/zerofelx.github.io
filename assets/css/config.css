@@ -4,11 +4,28 @@
 }
 #Title {
     width: 50%;
+    cursor: default;
 }
 #Links {
     width: 50%;
     display: flex;
     align-items: center;
+}
+#Links a {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
+    color: crimson;
+    padding: 0 8px;
+    transition: padding 1s, background-color 1s;
+    min-width: 100px;
+    text-align: center;
+}
+#Links a:hover {
+    color: rgb(189, 50, 78);
+    background-color: rgb(54, 44, 44);
+    padding: 1.3em 8px;
+    transition: padding .5s;
 }
 #Content {
     background: rgb(245, 245, 245);
@@ -23,6 +40,11 @@
 }
 #Avatar img {
     border-radius: 50%;
+    transition: border-radius 3s;
+}
+#Avatar img:hover {
+    border-radius: 0%;
+    transition: border-radius 1s;
 }
 #Name {
     text-align: center;
@@ -31,25 +53,10 @@
     text-align: center;
 }
 #Portfolio {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 #PortfolioTitle {
     width: 100%;
     text-align: center;
-}
-.ProyectBox {
-    width: 50%;
-}
-.ProyectTitle {
-    text-align: center;
-}
-
-@media (max-width: 600px) {
-    .ProyectBox {
-        width: 100%;
-        margin: 0;
-    }
 }
