@@ -41,11 +41,14 @@
 }
 #Avatar img {
     border-radius: 50%;
-    transition: border-radius 3s;
+    transform: scale(1);
+    transition: border-radius 3s, transform 1s;
 }
 #Avatar img:hover {
     border-radius: 0%;
-    transition: border-radius 1s;
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px 2px rgb(184, 178, 178);
+    transition: border-radius 1s, transform 2s, box-shadow 2s;
 }
 #Name {
     text-align: center;
