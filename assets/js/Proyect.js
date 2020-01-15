@@ -3,7 +3,6 @@ var ShowGame2D = false
 var ShowCyrozExchange = false
 
 function Show(id) {
-    debugger
     switch (id) {
         case "Behemoth":
             if (ShowBehemoth) {
@@ -36,7 +35,6 @@ function Show(id) {
                 break
             }
     }
-    debugger
 }
 
 function Add(id) {
@@ -44,7 +42,7 @@ function Add(id) {
     e.classList.toggle("show")
     setTimeout(() => {
         e.classList.toggle("showP")
-    }, 1000);
+    }, 300);
 }
 
 function Remove(id) {

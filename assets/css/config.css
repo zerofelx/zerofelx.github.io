@@ -64,3 +64,28 @@
     width: 100%;
     text-align: center;
 }
+
+#Footer {
+    background-color: crimson;
+    padding: 20px 10px;
+}
+#Footer p {
+    margin: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 690px) {
+    #Header {
+        display: none;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: .9em;
+    }
+}
