@@ -91,3 +91,12 @@
         min-height: inherit;
     }
 }
+
+/* Responsive */
+
+@media (max-width: 690px) {
+    .ProjectBox {
+        width: 95%;
+        padding: 5px 5px 0;
+    }
+}
