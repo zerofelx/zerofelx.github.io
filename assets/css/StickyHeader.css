@@ -1,0 +1,32 @@
+.Fixed {
+    position: fixed;
+    width: 98%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    padding: 2px;
+    background-color: white;
+    animation: StickyHeader .5s;
+}
+
+.Return {
+    animation: Return .5s;
+}
+
+@keyframes StickyHeader {
+    from {
+        transform: translate(0, -100%);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes Return {
+    from {
+        transform: translate(0, 20%);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
