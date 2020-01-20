@@ -1,0 +1,27 @@
+#Certificates {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#CertificatesTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.CertificatesBox {
+    width: 32%;
+    border: 1px solid grey;
+    background-color: white;
+}
+.CertificatesBox iframe {
+    display: none;
+}
+.CertificatesBox .ShowItem {
+    display: none;
+}
+.CertificatesBox h3 {
+    text-align: center;
+}
