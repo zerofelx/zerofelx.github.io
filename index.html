@@ -14,6 +14,7 @@
         <a target="_blank" href="https://www.facebook.com/Zerofelx-601203797044562">Facebook</a>
         <a href="#Contacto">Contacto</a>
     </div>
+
     <div id="Header">
         <div id="Title">
             <h2>Jesus Urquijo</h2>
@@ -25,6 +26,7 @@
             <a href="#Contacto">Contacto</a>
         </div>
     </div>
+
     <div id="Content">
         <div id="Hero">
             <div id="Avatar">
@@ -82,30 +84,77 @@
         </div>
 
         <div id="Certificates">
+            <div id="BGCertificate" onclick="EscBG()">
+                <div id="ShowCertificate">
+    
+                </div>
+            </div>
+
             <div id="CertificatesTitle">
                 <h2>Certificados</h2>
             </div>
     
             <div class="CertificatesBox">
-                <h3>Curso profesional de Git y Github</h3>
-                <div class="ShowItem">
-                    <iframe title="Github" src="assets/pdf/diploma-git-github.pdf" width="100%" height="250px"></iframe>
+                <div class="CertificateTitle">
+                    <h2>Backend con Golang</h2>
+                </div>
+                <div class="CertificateButton">
+                    <input type="button" value="Ver Certificado" 
+                    onclick="ShowCertificate('backend-go')">
                 </div>
             </div>
 
-            <div class="CertificatesBox">
-                <h3>Curso profesional de Git y Github</h3>
-                <div class="ShowItem">
-                    <iframe title="Github" src="assets/pdf/diploma-git-github.pdf" width="100%" height="250px"></iframe>
+            <div class="CertificatesBox Show">
+                <div class="CertificateTitle">
+                    <h2>Vue.js</h3>
+                </div>
+                <div class="CertificateButton">
+                    <input type="button" value="Ver Certificado"
+                    onclick="ShowCertificate('vuejs')">
                 </div>
             </div>
             
             <div class="CertificatesBox">
-                <h3>Curso profesional de Git y Github</h3>
-                <div class="ShowItem">
-                    <iframe title="Github" src="assets/pdf/diploma-git-github.pdf" width="100%" height="250px"></iframe>
+                <div class="CertificateTitle">
+                    <h2>Curso profesional de Git y Github</h3>
+                </div>
+                <div class="CertificateButton">
+                    <input type="button" value="Ver Certificado"
+                    onclick="ShowCertificate('git-github')">
                 </div>
             </div>
+            
+            <div class="CertificatesBox">
+                <div class="CertificateTitle">
+                    <h2>Programación en Go</h2>
+                </div>
+                <div class="CertificateButton">
+                    <input type="button" value="Ver Certificado"
+                    onclick="ShowCertificate('go-basico')">
+                </div>
+            </div>
+
+            <div class="CertificatesBox">
+                <div class="CertificateTitle">
+                    <h2>Fundamentos de bases de datos</h2>
+                </div>
+                <div class="CertificateButton">
+                    <input type="button" value="Ver Certificado"
+                    onclick="ShowCertificate('bd')">
+                </div>
+            </div>
+
+
+            <div class="CertificatesBox">
+                <div class="CertificateTitle">
+                    <h2>Seguridad informática</h2>
+                </div>
+                <div class="CertificateButton">
+                    <input type="button" value="Ver Certificado"
+                    onclick="ShowCertificate('seguridad-informatica')">
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -114,6 +163,7 @@
         <p>Soy un footer</p>
     </div>
     <script src="assets/js/Proyect.js"></script>
+    <script src="assets/js/Certificates.js"></script>
     <script src="assets/js/StickyHeader.js"></script>
 </body>
 </html>

@@ -12,16 +12,77 @@
 }
 
 .CertificatesBox {
+    margin: 10px 0;
+    height: 150px;
     width: 32%;
     border: 1px solid grey;
     background-color: white;
+    text-align: center;
 }
-.CertificatesBox iframe {
-    display: none;
+.CertificateTitle {
+    height: 60%;
+    width: 100%;
+}
+.CertificateTitle h2 {
+    padding: 0 10px;
+}
+.CertificateButton {
+    height: 0%;
+}
+.CertificatesBox input {
+    padding: 5px 8px;
 }
 .CertificatesBox .ShowItem {
     display: none;
 }
+#BGCertificate {
+    display: none;
+}
+#BGCertificate.Show {
+    display: initial;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    animation: Opacity 1s;
+}
+#BGCertificate.Show #ShowCertificate {
+    padding: 1% 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 50vh;
+}
+#BGCertificate.Show #ShowCertificate img{
+    width: 100%;
+    animation: Certificate 2s;
+}
 .CertificatesBox h3 {
     text-align: center;
+}
+
+@keyframes Certificate {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes Opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 690px) {
+    .CertificatesBox {
+        width: 100%;
+    }
 }
