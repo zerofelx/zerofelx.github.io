@@ -52,7 +52,8 @@
 #BGCertificate.Show #ShowCertificate {
     padding: 1% 0;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
+    /* max-height: 80%; */
     height: 50vh;
 }
 #BGCertificate.Show #ShowCertificate img{
