@@ -53,11 +53,11 @@
     padding: 1% 0;
     margin: 0 auto;
     width: 70%;
-    /* max-height: 80%; */
     height: 50vh;
+    text-align: center;
 }
 #BGCertificate.Show #ShowCertificate img{
-    width: 100%;
+    width: 80%;
     animation: Certificate 2s;
 }
 .CertificatesBox h3 {
