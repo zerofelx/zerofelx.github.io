@@ -13,6 +13,14 @@
     width: 100%;
     animation: ReverseHeight .5s;
 }
+.Screenshot .ShowScreenshot {
+    margin: 0 auto;
+}
+.Screenshot .SS {
+    width: 80%;
+    margin: 5px auto 2px;
+    display: none;
+}
 .ShowButton {
     margin-top: 20px;
     height: 30px;
@@ -29,20 +37,25 @@
     transform: rotate(180deg);
     transition: transform 2s;
 }
-.ProjectBox.hide p {
+.ProjectBox.hide p, .ProjectBox.hide .ShowScreenshot, .ProjectBox.hide .SS {
     opacity: 0;
     display: none;
     cursor: default;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-name: Opacidad;
 
-    animation: Scale 2s;
+    animation: Scale 3s;
 }
 .ProjectBox.show .ProjectContent {
-    animation: ContentHeight 2s;
+    animation: ContentHeight 1s;
     min-height: 340px;
 }
-.ProjectBox.showP p {
+.ProjectBox.showP p, .ProjectBox.showP .ShowScreenshot {
+    cursor: auto;
+    display: block;
+    opacity: 1;
+}
+.ProjectBox.showP .Screenshot.show .SS{
     cursor: auto;
     display: block;
     opacity: 1;

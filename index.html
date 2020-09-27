@@ -30,7 +30,7 @@
     <div id="Content">
         <div id="Hero">
             <div id="Avatar">
-                <img src="assets/img/DSC0469.jpg" alt="Imagen" width="200">
+                <img id="Contacto" src="assets/img/DSC0469.jpg" alt="Imagen" width="200">
             </div>
             <div id="Name">
                 <h1>Jesus David Urquijo Corredor</h1>
@@ -38,7 +38,9 @@
                 <p><b>Colombia | Bogotá D.C.</b> - <b>3006672254</b></p>
             </div>
             <div id="Description">
-                <h3>Soy una persona</h3>
+                <h4>Soy una persona con alta capacidad de aprendizaje y amor por aprender, calmado y respetuoso. Capaz de trabajar bajo presión, siempre intentando ser crítico y perfeccionista con mi propio trabajo.</h4>
+                <h4>Tengo un alto cariño y amor por la tecnología y todo lo que trae este mundo, bastante acostumbrado a este mundo y no desearía cambiarlo por nada.</h4>
+                <h4>El trabajo en equipo me parece bastante agradable, me encanta tener compañeros de trabajo y escuchar sus opiniones. Siempre respeto las decisiones y opiniones de mis compañeros y me encanta bastante conocer nuevas personas.</h4>
             </div>
         </div>
 
@@ -46,14 +48,19 @@
             <div id="PortfolioTitle">
                 <h1>Portafolio</h1>
             </div>
-            <div class="ProjectBox hide" id="Behemoth">
+            <div class="ProjectBox hide" id="Pandora">
                 <div class="ProjectContent">
                     <div class="ProjectTitle">
-                        <a target="_blank" href="https://github.com/zerofelx/Behemoth">Behemoth</a target="_blank">
+                        <a target="_blank" href="https://github.com/zerofelx/Pandora">Pandora</a target="_blank">
                     </div>
-                    <p class="center">Estoy desarrollando una Desktop app </p class="center">
+                    <p class="center">Una Webapp hecha en node, utilizando Vue.js como frontend y MySQL como Database para hacer un ataque de Evil Twin.</p class="center">
+                    <div class="Screenshot" id="SSPandora">
+                        <button onclick="ShowScreenshots('SSPandora')" class="ShowScreenshot">Ver / Ocultar Screenshot</button>
+                        <img class="SS" src="assets/img/Screenshots/Pandora.jpg" alt="Pandora Capture">
+                    </div>
+                    <p class="center">Ver más contenido: <a href="https://www.facebook.com/zerofelx/posts/2386631608307924" target="_blank">Pandora</a></p>
                 </div>
-                <div class="ShowButton" onclick="Show('Behemoth')">
+                <div class="ShowButton" onclick="Show('Pandora')">
                     <img src="assets/img/arrow.png" width="30" alt="">
                 </div>
             </div>
@@ -63,7 +70,12 @@
                     <div class="ProjectTitle">
                         <a target="_blank" href="https://github.com/zerofelx/Game-2D-in-Golang">Game 2D in Golang</a>
                     </div>
-                    <p class="center">Estoy desarrollando un vídeojuego 2D en Golang con la librería "Pixel"</p>
+                    <p class="center">Estoy desarrollando un vídeojuego 2D en Golang con la librería "Pixel" en mis tiempos libres como pasatiempo.</p>
+                    <div class="Screenshot" id="SSGame2D">
+                        <button onclick="ShowScreenshots('SSGame2D')" class="ShowScreenshot">Ver / Ocultar Screenshot</button>
+                        <img class="SS" src="assets/img/Screenshots/Game 2D.png" alt="Pandora Capture">
+                    </div>
+                    <p class="center">Ver más contenido: <a href="https://www.facebook.com/permalink.php?story_fbid=789657781532495&id=601203797044562" target="_blank">Game 2D</a></p>
                 </div>
                 <div class="ShowButton" onclick="Show('Game2D')">
                     <img src="assets/img/arrow.png" width="30" alt="">
@@ -75,7 +87,12 @@
                     <div class="ProjectTitle">
                         <a target="_blank" href="https://github.com/zerofelx/Cyroz-Exchange">Cyroz Exchange</a>
                     </div>
-                    <p class="center"><a target="_blank" href="https://cyroz-exchange.netlify.com/">Página del proyecto</a></p>
+                    <p class="center">Página web hecha en Vue.js en la que podrás revisar el precio de tus criptomonedas favoritas</p>
+                    <div class="Screenshot" id="SSCyrozExchange">
+                        <button onclick="ShowScreenshots('SSCyrozExchange')" class="ShowScreenshot">Ver / Ocultar Screenshot</button>
+                        <img class="SS" src="assets/img/Screenshots/Cyroz Exchange.png" alt="Pandora Capture">
+                    </div>
+                    <p class="center">Ver más contenido: <a href="https://cyroz-exchange.netlify.app/" target="_blank">Game 2D</a></p>
                 </div>
                 <div class="ShowButton" onclick="Show('CyrozExchange')">
                     <img src="assets/img/arrow.png" width="30" alt="">
@@ -91,7 +108,7 @@
             </div>
 
             <div id="CertificatesTitle">
-                <h2>Certificados</h2>
+                <h2>Algunos Certificados</h2>
             </div>
     
             <div class="CertificatesBox">
@@ -160,7 +177,7 @@
 
 
     <div id="Footer">
-        <p>Soy un footer</p>
+        <p> </p>
     </div>
     <script src="assets/js/Proyect.js"></script>
     <script src="assets/js/Certificates.js"></script>
