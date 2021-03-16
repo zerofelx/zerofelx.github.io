@@ -1,6 +1,6 @@
 var ShowPandora = false
 
-var ShowGame2D = false
+var ShowBehimosu = false
 var ShowCyrozExchange = false
 
 function Show(id) {
@@ -15,14 +15,14 @@ function Show(id) {
                 ShowPandora = true
                 break
             }
-        case "Game2D":
-            if (ShowGame2D) {
+        case "Behimosu":
+            if (ShowBehimosu) {
                 Remove(id)
-                ShowGame2D = false
+                ShowBehimosu = false
                 break
             } else {
                 Add(id)
-                ShowGame2D = true
+                ShowBehimosu = true
                 break
             }
         case "CyrozExchange":
@@ -55,7 +55,7 @@ function Remove(id) {
 }
 
 var SSPandora = false
-var SSGame2D = false
+var SSBehimosu = false
 var SSCyrozExchange = false
 
 function ShowScreenshots(id) {
@@ -70,10 +70,10 @@ function ShowScreenshots(id) {
                 SSPandora = true
                 break
             }
-        case "SSGame2D":
-            if (SSGame2D) {
+        case "SSBehimosu":
+            if (SSBehimosu) {
                 RemoveSS(id)
-                SSGame2D = false
+                SSBehimosu = false
                 break
             } else {
                 AddSS(id)
