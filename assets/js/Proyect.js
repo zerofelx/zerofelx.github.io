@@ -77,7 +77,7 @@ function ShowScreenshots(id) {
                 break
             } else {
                 AddSS(id)
-                SSGame2D = true
+                SSBehimosu = true
                 break
             }
         case "SSCyrozExchange":
